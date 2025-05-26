@@ -5,33 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Meu portifolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Portfólio</title>
 </head>
 <body>
     
-    <header>
+    <header class="cabecalho">
         <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNOSAyMHYtMkgzVjRoMTh2MTRoLTZ2MnptLTQuNTg0LTlsMi42LTIuNmwtLjcwOC0uNzA4TDMgMTFsMy4zMDggMy4zMDhsLjcwOC0uNzA4em0xNS4xNjkgMGwtMi42IDIuNmwuNzA3LjcwOEwyMSAxMWwtMy4zMDgtMy4zMDhsLS43MDcuNzA4eiIvPjwvc3ZnPg==" alt="icone-dev">
     
-        <nav>
+        <nav class="navegacao">
             <ul>
-                <a href="#"><li>Sobre</li></a>
-                <a href="#"><li>Meus projetos</li></a>
-                <a href="#"><li>Tecnologias</li></a>
-                <a href="#"><li>Contato</li></a>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Meus projetos</a></li>
+                <li><a href="#">Tecnologias</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
         </nav>
     
     </header>
 
+
     <main class="container-apresentacao">
-        <section>
+       
+        <section class="apresentacao">
            
             <div class="card-texto">
-            <h1>Olá, sou Valdinei Antunes!</h1>
-            <p>Bem vindo ao meu portifólio, aqui te mostrarei... </p>
+            <p>Olá, eu sou Valdinei Antunes</p>
+            <h2>Desenvolvedor <br> Full Stack</h2>
             <a href="#"><button>Download CV</button></a>
-           </div>
+            <div class="contacts">
+            <a href="https://github.com/Valdinei-Antunes/"  target="_blank"><img src="img/github.png" alt="Github"></a>
+            <a href="https://www.linkedin.com/in/valdinei-antunes-fiuza/"  target="_blank"><img src="img/icon_linkedin.png" alt="Linkedin"></a>
+            </div>
+            </div>
 
+         
            <div class="card-img">
             <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjQiIGQ9Ik0yNCAyMGE3IDcgMCAxIDAgMC0xNGE3IDcgMCAwIDAgMCAxNE02IDQwLjhWNDJoMzZ2LTEuMmMwLTQuNDggMC02LjcyLS44NzItOC40MzJhOCA4IDAgMCAwLTMuNDk2LTMuNDk2QzM1LjkyIDI4IDMzLjY4IDI4IDI5LjIgMjhIMTguOGMtNC40OCAwLTYuNzIgMC04LjQzMi44NzJhOCA4IDAgMCAwLTMuNDk2IDMuNDk2QzYgMzQuMDggNiAzNi4zMiA2IDQwLjgiLz48L3N2Zz4=" alt="Foto-perfil">
            </div>
@@ -49,17 +59,17 @@
                     <li>
                         <img src="" alt="foto-projeto">
                         <p class="descricao">Este projeto foi feito utilizando HTML, CSS, JavaScript...</p>
-                        <a href="#"><button>Ver projeto</button></a>
+                        <button><a href="#">Ver projeto</a></button>
                     </li>
                     <li>
                         <img src="" alt="foto-projeto">
                         <p class="descricao">Este projeto foi feito utilizando HTML, CSS, JavaScript...</p>
-                        <a href="#"><button>Ver projeto</button></a>
+                        <button><a href="#">Ver projeto</a></button>
                     </li>
                     <li>
                         <img src="" alt="foto-projeto">
                         <p class="descricao">Este projeto foi feito utilizando HTML, CSS, JavaScript...</p>
-                        <a href="#"><button>Ver projeto</button></a>
+                        <button><a href="#">Ver projeto</a></button>
                     </li>
                 </ul>
             </article>
@@ -92,8 +102,9 @@
     
     </main>
 
+
     <footer class="rodape">
-        <p>Desenvolvidor por Valdinei Antunes</p>
+        <p>Desenvolvido por Valdinei Antunes</p>
     </footer>
 
 </body>
